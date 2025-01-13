@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Encryption and Decryption</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sty.css">
+</head>
+<body>
+  <nav>
+    <f1>&nbsp;ENCRYPTION AND DECRYPTION OF IMAGE&nbsp;</f1>
+  </nav>
+  <div class="container">
+    <label class="inp"><span class="f1"><f3>UPLOAD IMAGE FOR ENCRYPTION</f3></span><input type="file" id="fileinput" accept="image/*"></label>
+    <input type="text" id="encryptcode" placeholder="Enter Encryption Key">
+    <button onclick="encryptImage()"><span class="f1"><f3>ENCRYPT IMAGE</f3></span></button>
+    <label class="inp"><span class="f1"><f3>UPLOAD FILE FOR DECRYPTION</f3></span><input type="file" id="encryptedfileinput" accept=".txt"></label>
+    <input type="text" id="decryptcode" placeholder="Enter Decryption Key">
+    <button onclick="decryptImage()"><span class="f1"><f3>DECRYPT FILE</f3></span></button>
+    <div id="output"></div>
+  </div>
+  <script src="scp.js"></script>
+</body>
+</html>
+                                      
