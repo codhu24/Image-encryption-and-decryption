@@ -27,10 +27,14 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(47, 65, 84);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.993);
     border-radius: 10px;
     text-align: center;
+    background-image: url('imge.jpg'); /* Replace with the correct path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    color: white;
   }
   
   .inp {
